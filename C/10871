@@ -8,6 +8,5 @@ int main() {
 		if(m[i] < x)
 			printf("%d ", m[i]);
 	}
-
 	return 0;
 }
