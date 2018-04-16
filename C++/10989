@@ -16,8 +16,7 @@ int main() {
 	}
 
 	for (int i = 1; i <= 10000; i++) {
-		while (cnt[i]) {
-			--cnt[i];
+		while (cnt[i]--) {
 			printf("%d\n", i);
 		}
 	}
