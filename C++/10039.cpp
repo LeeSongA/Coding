@@ -4,7 +4,7 @@ int main() {
 	int jumsu;
 	int sum = 0;
 
-	for (int i = 0; i < 5; i++) {
+	for (int student = 0; student < 5; student++) {
 		scanf("%d", &jumsu);
 
 		if (jumsu < 40)
