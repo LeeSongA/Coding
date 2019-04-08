@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
 	int n;
 	float max = 0;
