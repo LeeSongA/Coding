@@ -28,4 +28,5 @@ int main() {
 			printf("%d ", a[r] == target);
 		}
 	}
+	return 0;
 }
