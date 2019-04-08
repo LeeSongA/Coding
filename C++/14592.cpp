@@ -17,6 +17,7 @@ bool cmp(str a, str b) {
 }
 
 str inp[3];
+
 int main() {
 	int N;
 	scanf("%d", &N);
