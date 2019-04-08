@@ -6,7 +6,9 @@ using namespace std;
 bool cmp(int a, int b) {
 	return a > b;
 }
+
 int inp[1000005];
+
 int main() {
 	int N;
 	scanf("%d", &N);
