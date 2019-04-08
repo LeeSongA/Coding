@@ -1,6 +1,6 @@
 #include<iostream>
-#include<queue>
 #include<string>
+#include<queue>
 
 using namespace std;
 
@@ -9,7 +9,6 @@ int main() {
 	cin >> N;
 
 	queue<int> q;
-	int num;
 
 	for (int i = 0; i < N; i++) {
 		string str;
@@ -22,36 +21,32 @@ int main() {
 		}
 		else if (str == "pop") {
 			if (q.size() != 0) {
-				num = q.front();
+				cout << q.front() << endl; 
 				q.pop();
 			}
 			else
-				num = -1;
-			cout << num << endl;
+				cout << -1 << endl;
 		}
 		else if (str == "size") {
 			cout << q.size() << endl;
 		}
 		else if (str == "empty") {
 			if (q.size() == 0)
-				num = 1;
+				cout << 1 << endl;
 			else
-				num = 0;
-			cout << num << endl;
+				cout << 0 << endl;
 		}
 		else if (str == "front") {
 			if (q.size() == 0)
-				num = -1;
+				cout << -1 << endl;
 			else
-				num = q.front();
-			cout << num << endl;
+				cout << q.front() << endl;
 		}
 		else if (str == "back") {
 			if (q.size() == 0)
-				num = -1;
+				cout << -1 << endl;
 			else
-				num = q.back();
-			cout << num << endl;
+				cout << q.back() << endl;
 		}
 	}
 	return 0;
