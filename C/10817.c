@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int n[3], temp;
     for(int i=0; i<3; i++)

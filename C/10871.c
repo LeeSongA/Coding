@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
 	int n, x, m[10000];
 	scanf("%d %d", &n, &x);
