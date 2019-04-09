@@ -8,19 +8,19 @@ int selected[10];
 
 void answer(int num, int idx) {
 	numbers[idx] = num;
-	
+
 	if (idx == N) {
 		for (int i = 1; i <= N; i++) {
 			cout << numbers[i] << " ";
 		}
-		cout << endl;
+		cout << "\n";
 		return;
 	}
 
 	for (int i = 1; i <= N; i++) {
-		if (selected[i]) 
+		if (selected[i])
 			continue;
-		
+
 		selected[i] = 1;
 		answer(i, idx + 1);
 		selected[i] = 0;
