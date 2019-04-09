@@ -77,7 +77,6 @@ int main(int argc, char** argv) {
 		divided_N = N / 2;
 		DFS(1, divided_N, divided_N);
 		cout << "#" << TCcnt << " " << minimum << endl;
-		minimum = (1 << 30);
 	}
 	return 0;
 }
