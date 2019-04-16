@@ -5,7 +5,6 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	int n;
-	int space = 1;
 	cin >> n;
 
 	for (int i = 1; i <= n; i++) {
