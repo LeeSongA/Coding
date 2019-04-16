@@ -7,9 +7,6 @@ int main(int argc, char** argv) {
 
 	while (cin >> num_one >> num_two) {
 		cout << num_one + num_two << endl;
-
-		if (num_one == NULL)
-			break;
 	}
 	return 0;
 }
