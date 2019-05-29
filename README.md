@@ -1,8 +1,10 @@
-# Coding Test Practice
+# Coding
 
-> HackerRank: https://www.hackerrank.com
-> BAEKJOON: https://www.acmicpc.net
-> SW Expert Academy: https://www.swexpertacademy.com
+### It is a practice for coding ability and skills.
+
+> HackerRank: https://www.hackerrank.com <br>
+> BAEKJOON: https://www.acmicpc.net <br>
+> SW Expert Academy: https://www.swexpertacademy.com <br>
 
 
 
